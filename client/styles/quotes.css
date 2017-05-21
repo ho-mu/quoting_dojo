@@ -1,0 +1,29 @@
+/**{
+	outline:red dotted;
+}*/
+#container{
+	outline:black thin;
+	width:500px;
+	margin:0 auto;
+	display:inline-block;
+}	
+.horizontal_ln{
+	border-top:black solid 1px;
+	width: 450px;
+	height:10px;
+}
+.label{
+	display:inline-block;
+	margin-right:10px;
+}
+button{
+	display:inline-block;
+	margin:10px;
+}
+input{
+	display:inline-block;
+}
+form{
+	width:300px;
+	display:inline-block;
+}

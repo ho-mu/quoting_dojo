@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QuotingDojo</title>
+	<link rel="stylesheet" type="text/css" href="./../styles/quotes.css">
+</head>
+<body>
+	<div id='container'>
+		<h1>Welcome to QuotingDojo</h1>
+		<form action='/quotes' method='post'>
+			<p class='label'>Your name:</p>
+			<input type="text" name="author" placeholder='Trey'>
+			<p class='label'>Your quote:</p>
+			<input type="text" name="quote" placeholder='I make lame jokes'>
+			<button type=submit formaction='/quotes' value='add'>Add my quote!</button>
+			<button type=submit formaction='/skip_to_quotes'>Skip to quotes!</button>
+		</form>
+	</div>
+</body>
+</html>

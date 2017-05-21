@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QuotingDojo-Quotes</title>
+	<link rel="stylesheet" type="text/css" href="./../styles/quotes.css">
+</head>
+<body>
+	<div id='container'>
+		<h1>Here are the awesome quotes!</h1>
+			<% for(var x=0; x<quotes.length; x++){ %>
+			<div>
+				<p>"<%= quotes[x].quote %>"</p>
+				<p>- <%= quotes[x].author %> at</p>
+				<div class='horizontal_ln'></div>
+			</div>
+			<% } %>
+	</div>
+
+</body>
+</html>
